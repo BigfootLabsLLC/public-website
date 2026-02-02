@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import WADriverTest from './pages/wa-driver-test/Page';
 
 function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <div className="flex flex-col min-h-screen">
         <nav className="bg-slate-900 text-white border-b border-slate-800">
           <div className="container mx-auto px-4 h-16 flex items-center justify-between">
