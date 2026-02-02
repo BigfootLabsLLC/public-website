@@ -22,13 +22,16 @@ export default function Home() {
             Bigfoot Labs
           </h1>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Forging high-performance software with a focus on family connection and technical excellence.
+            Forging high-performance software with a focus on technical excellence and data-driven learning.
           </p>
           
           <div className="flex justify-center gap-4">
-            <a href="#products" className="btn-primary">
+            <button 
+              onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
+              className="btn-primary"
+            >
               View Products
-            </a>
+            </button>
           </div>
         </div>
       </section>
@@ -64,7 +67,7 @@ export default function Home() {
                     WA License Test
                   </h3>
                   <p className="text-slate-400 mb-6 flex-grow leading-relaxed">
-                    The parent-connected, data-driven driving coach. Master the rules of the road with AI-curated questions and adaptive learning.
+                    Master the rules of the road with AI-curated questions, adaptive learning, and full support for Washington's diverse languages.
                   </p>
                   <div className="flex items-center text-blue-400 font-semibold group-hover:translate-x-2 transition-transform">
                     Learn more <span className="ml-2">→</span>

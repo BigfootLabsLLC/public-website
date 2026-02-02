@@ -30,27 +30,27 @@ export default function WADriverTest() {
                 iOS (iPad & iPhone)
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight">
-                The Parent-Connected <br />
+                Master the Road <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">
-                  Driving Coach
+                  with Confidence
                 </span>
               </h1>
               <p className="text-xl text-slate-400 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                Not just flashcards. A comprehensive, adaptive learning system for the Washington State Driver's License test.
+                A comprehensive, adaptive learning system designed to help new drivers master the rules of the road in their native language.
               </p>
               
               <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm font-semibold text-slate-400">
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-blue-400">
-                    683+
+                    700+
                   </div>
                   <span>Curated Questions</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-blue-400">
-                    300+
+                    5+
                   </div>
-                  <span>Vector Signs</span>
+                  <span>Languages Supported</span>
                 </div>
               </div>
             </div>
@@ -82,32 +82,32 @@ export default function WADriverTest() {
             <FeatureCard 
               icon="🧠"
               title="Adaptive Learning"
-              desc="The app remembers what you get wrong and surfaces those questions more frequently using a C++ spaced-repetition core."
+              desc="The app remembers what you get wrong and surfaces those questions more frequently using a high-performance C++ spaced-repetition core."
             />
             <FeatureCard 
-              icon="🚦"
-              title="300+ Vector Signs"
-              desc="AI-filtered sign library. We removed the junk to focus only on what appears on the actual test. High-fidelity SVG."
+              icon="🌍"
+              title="Multilingual Support"
+              desc="Built for Washington's diverse population. Full support for Spanish, Chinese, Vietnamese, Russian, and Korean translations."
+            />
+            <FeatureCard 
+              icon="📚"
+              title="700+ Question Bank"
+              desc="Extensive, AI-refined question library covering every detail of the official WA Driver Guide and road signs."
             />
             <FeatureCard 
               icon="📝"
               title="Mock Exams"
-              desc="Simulates the real 40-question WA State Knowledge Test with weighted topic distribution."
+              desc="Simulates the real 40-question WA State Knowledge Test with weighted topic distribution and instant feedback."
             />
             <FeatureCard 
-              icon="👨‍👩‍👧‍👦"
-              title="Parent Connection"
-              desc="Designed to turn driver ed into a family conversation. Gives parents insight to coach effectively."
+              icon="📱"
+              title="Native Experience"
+              desc="A fluid, high-performance iOS app built with SwiftUI, featuring high-contrast text and accessible design."
             />
             <FeatureCard 
-              icon="🌍"
-              title="Localization Ready"
-              desc="Built to support Spanish, Chinese, Vietnamese, Russian, and Korean translations from day one."
-            />
-            <FeatureCard 
-              icon="⚡"
-              title="Native SwiftUI"
-              desc="Fluid, modern iOS experience with high contrast text and color-blind friendly design."
+              icon="📊"
+              title="Progress Insights"
+              desc="Detailed analytics to track your progress and ensure you are ready before you head to the DMV."
             />
           </div>
         </div>
