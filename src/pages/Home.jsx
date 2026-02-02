@@ -13,9 +13,9 @@ export default function Home() {
           </div>
           
           <img 
-            src="/img/logo_white_background.png" 
+            src="img/logo_white_background.png" 
             alt="Bigfoot Labs" 
-            className="h-24 mx-auto mb-8 opacity-90 drop-shadow-2xl hidden" 
+            className="h-24 mx-auto mb-8 opacity-90 drop-shadow-2xl" 
           />
           
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-100 to-blue-200">
@@ -49,7 +49,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-blue-600/10 group-hover:bg-blue-600/20 transition-colors z-10"></div>
                   {/* Placeholder for App Icon/Shot - using a gradient or the actual mainscreen if suitable, but let's stick to a clean abstract or the screenshot */}
                   <img 
-                    src="/public-website/img/products/wa-driver-test/mainscreen.png" 
+                    src="img/products/wa-driver-test/mainscreen.png" 
                     onError={(e) => {e.target.onerror = null; e.target.src = ''}} // Fallback if image fails (e.g. dev mode)
                     alt="WA Driver App"
                     className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
