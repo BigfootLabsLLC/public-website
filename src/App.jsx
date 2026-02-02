@@ -9,10 +9,11 @@ function App() {
         <nav className="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
           <div className="container mx-auto px-6 h-20 flex items-center justify-between">
             <Link to="/" className="flex items-center gap-3 group">
-              {/* Logo Placeholder or SVG */}
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:shadow-blue-500/40 transition-all">
-                <span className="text-white font-bold text-xl">B</span>
-              </div>
+              <img 
+                src="img/logo_white_background.png" 
+                alt="Logo" 
+                className="h-10 w-10 object-cover rounded-lg shadow-lg group-hover:scale-105 transition-transform" 
+              />
               <span className="font-bold text-xl tracking-tight text-white group-hover:text-blue-400 transition-colors">
                 Bigfoot Labs
               </span>

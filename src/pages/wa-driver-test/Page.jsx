@@ -18,7 +18,7 @@ export default function WADriverTest() {
     <div className="min-h-screen bg-slate-950 text-slate-300 font-sans selection:bg-blue-500/30">
       
       {/* Product Hero */}
-      <div className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
+      <div className="relative pt-12 pb-16 md:pt-16 md:pb-24 overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-blue-600/20 blur-[120px] rounded-full -z-10 opacity-50"></div>
         
         <div className="container mx-auto px-6">
@@ -27,7 +27,7 @@ export default function WADriverTest() {
             {/* Text Content */}
             <div className="lg:w-1/2 text-center lg:text-left">
               <div className="inline-block px-3 py-1 mb-6 text-sm font-medium text-blue-300 bg-blue-900/30 rounded-full border border-blue-800/50">
-                iOS (SwiftUI)
+                iOS (iPad & iPhone)
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight tracking-tight">
                 The Parent-Connected <br />
@@ -55,14 +55,10 @@ export default function WADriverTest() {
               </div>
             </div>
 
-            {/* Hero Image / Device Frame */}
-            <div className="lg:w-1/2 relative">
-              <div className="relative mx-auto border-slate-800 bg-slate-950 border-[8px] rounded-[2.5rem] h-[600px] w-[300px] shadow-2xl shadow-blue-900/20">
-                <div className="h-[32px] w-[3px] bg-slate-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
-                <div className="h-[46px] w-[3px] bg-slate-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
-                <div className="h-[46px] w-[3px] bg-slate-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
-                <div className="h-[64px] w-[3px] bg-slate-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
-                <div className="rounded-[2rem] overflow-hidden h-[578px] w-[278px] bg-slate-800">
+            {/* Hero Image / Device Frame - iPad Style */}
+            <div className="lg:w-1/2 relative flex justify-center">
+              <div className="relative border-slate-800 bg-slate-950 border-[12px] rounded-[2rem] h-[540px] w-[400px] shadow-2xl shadow-blue-900/40 max-w-full overflow-hidden">
+                <div className="h-full w-full bg-slate-800">
                   <img src={getImgPath("mainscreen.png")} className="w-full h-full object-cover" alt="App Main Screen" />
                 </div>
               </div>

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-32 pb-40 lg:pt-48 lg:pb-56">
+      <section className="relative overflow-hidden pt-16 pb-24 lg:pt-24 lg:pb-32">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900/40 via-slate-950 to-slate-950 -z-10"></div>
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-900/30 border border-blue-800 text-blue-300 text-sm font-medium mb-8 animate-fade-in-up">
